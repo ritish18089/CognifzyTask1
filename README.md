@@ -1,11 +1,11 @@
-# Detective Mystery Game
+# Detective Mystery Game - 🕵️ The truth is hidden... can you find it?
 
-## Project Overview
+## 🌟 Overview
 The "Detective Mystery Game" is a fully functional Java console application where the player acts as a detective tasked with solving the high-profile theft of the "Star of Cognifzy" diamond. The player must navigate various crime scenes, collect evidence, solve logic puzzles, interrogate suspects, and deduce the real criminal. 
 
 This project demonstrates core Java concepts, including Object-Oriented Programming (OOP) principles, exception handling, data structures (Collections), and interactive console loops.
 
-## Features
+## 🚀 Features
 - **Exploration:** Visit multiple locations like the Museum, Library, Hotel, Warehouse, Park, and Secret Laboratory.
 - **Evidence & Clues System:** Collect items and hints to build your case. Examine them for further details.
 - **Interrogation System:** Interact with 6 unique suspects with varying truthfulness, motives, and alibis.
@@ -14,12 +14,15 @@ This project demonstrates core Java concepts, including Object-Oriented Programm
 - **Multiple Endings:** Win by accurately identifying the culprit with enough evidence, or lose by accusing the wrong person or running out of time.
 - **Clean UI:** Well-formatted console outputs with ASCII art for immersion.
 
-## Technology Stack
+## 🛠 Technology Stack
 - Java 17+
 - Core Java
 - Object-Oriented Programming (OOP)
 - Java Collections Framework (ArrayList, HashMap)
 - Scanner Class (for input)
+
+## Architecture
+<img src="https://github.com/ritish18089/CognifzyTask1/blob/main/cogtask1.png" height="1000px" width="1000px">
 
 ## Class Diagram Highlights
 - `Main`: The entry point that instantiates the game.
@@ -37,7 +40,7 @@ This project demonstrates core Java concepts, including Object-Oriented Programm
 3. The main loop begins, presenting a menu.
 4. The user takes actions (visiting places, questioning suspects, examining items) which consume turns.
 5. Solving the terminal puzzle unlocks the Secret Laboratory.
-6. Gathering at least 2 pieces of evidence and solving the puzzle allows the player to successfully accuse the guilty suspect (Sophia).
+6. Gathering at least 2 pieces of evidence and solving the puzzle allows the player to successfully accuse the guilty suspect.
 7. Game ends when a suspect is accused, or turns run out.
 
 ## Installation Steps
@@ -46,7 +49,6 @@ This project demonstrates core Java concepts, including Object-Oriented Programm
 3. Navigate to the `Task 1 - Detective Mystery Game` directory.
 
 ## How to Run
-
 ### Command Line
 1. Open your terminal or command prompt.
 2. Navigate to the `src` folder:
@@ -82,5 +84,5 @@ This project demonstrates core Java concepts, including Object-Oriented Programm
 ---
 
 **Author:** Ritish Kannur  
-**Internship:** Java Development  
+**Internship:** Software Development  
 **Project:** Detective Mystery Game  
