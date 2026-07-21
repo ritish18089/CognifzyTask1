@@ -21,10 +21,10 @@ This project demonstrates core Java concepts, including Object-Oriented Programm
 - Java Collections Framework (ArrayList, HashMap)
 - Scanner Class (for input)
 
-## Architecture
+## 📂 Architecture
 <img src="https://github.com/ritish18089/CognifzyTask1/blob/main/cogtask1.png" height="1000px" width="1000px">
 
-## Class Diagram Highlights
+## 🎯 Class Diagram Highlights
 - `Main`: The entry point that instantiates the game.
 - `Game`: Manages the main game loop, difficulty settings, and turns.
 - `Detective`: Represents the player; handles inventory and notebook management.
@@ -34,7 +34,7 @@ This project demonstrates core Java concepts, including Object-Oriented Programm
 - `CaseFile`: Maintains global state related to suspects and puzzles.
 - `Story` & `Utils`: Helper classes for formatting, narrations, and safe input reading.
 
-## Workflow
+## 🎯 Workflow
 1. The game displays the introductory narrative.
 2. The user selects a difficulty which sets the turn limit.
 3. The main loop begins, presenting a menu.
@@ -43,12 +43,40 @@ This project demonstrates core Java concepts, including Object-Oriented Programm
 6. Gathering at least 2 pieces of evidence and solving the puzzle allows the player to successfully accuse the guilty suspect.
 7. Game ends when a suspect is accused, or turns run out.
 
-## Installation Steps
+## 📸 Screenshots
+### 📖 Story Screen
+<p align="center"><img src="https://github.com/ritish18089/CognifzyTask1/blob/main/1.png">
+
+### 📋 Main Menu
+<p align="center"><img src="https://github.com/ritish18089/CognifzyTask1/blob/main/2.png">
+
+### 🏛️ Visit Crime Scene
+<p align="center"><img src="https://github.com/ritish18089/CognifzyTask1/blob/main/3.png">
+
+### 👤 Interrogate Suspects
+<p align="center"><img src="https://github.com/ritish18089/CognifzyTask1/blob/main/4.png">
+
+### 📒 View Notebook(Clues)
+<p align="center"><img src="https://github.com/ritish18089/CognifzyTask1/blob/main/5.png">
+
+### 🎒 Inventory(Evidence)
+<p align="center"><img src="https://github.com/ritish18089/CognifzyTask1/blob/main/6.png">
+
+### 🧩 Solve Puzzle
+<p align="center"><img src="https://github.com/ritish18089/CognifzyTask1/blob/main/7.png">
+
+### 💬 Accuse Suspect
+<p align="center"><img src="https://github.com/ritish18089/CognifzyTask1/blob/main/8.png">
+
+### ℹ️ Help
+<p align="center"><img src="https://github.com/ritish18089/CognifzyTask1/blob/main/9.png">
+
+## ⚙ Installation Steps
 1. Ensure you have the Java Development Kit (JDK 17 or higher) installed on your system.
 2. Clone or download this repository.
 3. Navigate to the `Task 1 - Detective Mystery Game` directory.
 
-## How to Run
+## 📂 How to Run
 ### Command Line
 1. Open your terminal or command prompt.
 2. Navigate to the `src` folder:
@@ -69,20 +97,19 @@ This project demonstrates core Java concepts, including Object-Oriented Programm
 - Locate `Main.java`.
 - Click the Run button within your IDE.
 
-## Future Enhancements
+## 🎯 Future Enhancements
 - Save/Load functionality using File Handling.
 - More complex procedural puzzles (randomly generated clues).
 - Branching dialogue trees during interrogations.
 - Graphic User Interface (GUI) via JavaFX.
 
-## Learning Outcomes
+## 🏆 Learning Outcomes
 - Real-world application of OOP principles (Encapsulation, Polymorphism).
 - Managing application state across multiple objects.
 - Implementing robust user input validation.
 - Structuring a modular and maintainable Java project.
 
----
-
+## Project Done By:
 **Author:** Ritish Kannur  
 **Internship:** Software Development  
 **Project:** Detective Mystery Game  
